@@ -40,8 +40,23 @@ Repo of git and github course
 
         Commands:
         - git status: to show the status after any change
+
         - git add *file*: to add files to the stage [git add * : adds all files]
+        now the files are added to the stage
+
+        - git reset HEAD *file*: to unstage a file
         (NOTE: if u created a file after cloning the repo from remote to local, u HAVE TO add it to the stage using git add command)
 
+        - git commit -m "*description*": to commit added files to local repo
+        now the files are committed to the local repo
+        NOTE: after modifing an added file u just need to commit it, u do NOT have to add it again to the stage
+
+        - git branch: to get the branch name
+
+        - git remote -v: to get the remote name
+        NOTE: u can see the file path like this (C:\Users\Moatasim\Downloads\My-Github\Git_course (main -> origin))
+        (main -> origin) => (Branch Name -> remote name)
+
+        - git push *REMOTE* *BRANCH*: to push to remote that we cloned the repo from
 
  -->
