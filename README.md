@@ -49,7 +49,7 @@ Repo of git and github course
 
         - git commit -m "*description*": to commit added files to local repo
         now the files are committed to the local repo
-        NOTE: after modifing an added file u just need to commit it, u do NOT have to add it again to the stage
+        NOTE: after modifing an added file u do have to add it again to the stage
 
         - git branch: to get the branch name
 
