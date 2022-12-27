@@ -185,4 +185,24 @@ Repo of git and github course
                 1. Move the HEAD to the commit that we need to ramove all commits after it, HOW?
                     - git reset --hard *COMMIT HASH* => *COMMIT HASH* can be found on github OR by the command git log
                     - git push origin main --force: to recommit files so now the unnedded commits are gone
+            - BE CAREFUL DEALING WITH RESET COMMAND CUZ IT MIGHT RUIN YUOR WORK
+
+            - Ignore: is used to ignore certian files or folders (make them invisible by all commands)
+                1. touch gitignore: this file has all ignored files
+                2. code *FILE NAME*: to open it in VS code :*FILE NAME* here is gitignore
+                3. add patterns to be ignored to the file
+                    ex: *.log: ignore all files with extension .log
+                    ex: !mo3.log: do NOT ignore file called mo3.log
+                    ex: folderName: ignore directory (folder) folderName
+                    ex: fileName.txt: ignore file called fileName.txt
+
+                - how can u excute a command to a file even if it is ignored?
+                    - use (--force OR -f) with the commad to force it to be excutes to that file
+                        ex: git add -f ignoredFile.txt
+            - Tagging: used to tag work with a name, usually used with versions
+                After pushing files to add a tag for them there are two types of tagging
+                - Light Weighted Tag: git tag *TAG NAME*: this tag takes its message from the lastest commit before it
+                - Annotated Tag: git tag -a *TAG NAME* -m "*MSG*": this tag has its own MSG with it
+
+                - THEN: git push origin *TAGNAME*
  -->
